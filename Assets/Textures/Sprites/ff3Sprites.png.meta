@@ -53,7 +53,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_1
       rect:
         serializedVersion: 2
@@ -62,7 +62,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_2
       rect:
         serializedVersion: 2
@@ -71,7 +71,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_3
       rect:
         serializedVersion: 2
@@ -80,7 +80,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_4
       rect:
         serializedVersion: 2
@@ -89,7 +89,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_5
       rect:
         serializedVersion: 2
@@ -98,7 +98,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_6
       rect:
         serializedVersion: 2
@@ -107,7 +107,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_7
       rect:
         serializedVersion: 2
@@ -116,7 +116,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_8
       rect:
         serializedVersion: 2
@@ -125,7 +125,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_9
       rect:
         serializedVersion: 2
@@ -134,7 +134,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_10
       rect:
         serializedVersion: 2
@@ -143,7 +143,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_11
       rect:
         serializedVersion: 2
@@ -152,7 +152,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_12
       rect:
         serializedVersion: 2
@@ -161,7 +161,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_13
       rect:
         serializedVersion: 2
@@ -170,7 +170,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_14
       rect:
         serializedVersion: 2
@@ -179,7 +179,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_15
       rect:
         serializedVersion: 2
@@ -188,7 +188,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_16
       rect:
         serializedVersion: 2
@@ -197,7 +197,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_17
       rect:
         serializedVersion: 2
@@ -206,7 +206,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_18
       rect:
         serializedVersion: 2
@@ -215,7 +215,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_19
       rect:
         serializedVersion: 2
@@ -224,7 +224,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_20
       rect:
         serializedVersion: 2
@@ -233,7 +233,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_21
       rect:
         serializedVersion: 2
@@ -242,7 +242,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_22
       rect:
         serializedVersion: 2
@@ -251,7 +251,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_23
       rect:
         serializedVersion: 2
@@ -260,7 +260,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_24
       rect:
         serializedVersion: 2
@@ -269,7 +269,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_25
       rect:
         serializedVersion: 2
@@ -278,7 +278,7 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_26
       rect:
         serializedVersion: 2
@@ -287,7 +287,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_27
       rect:
         serializedVersion: 2
@@ -296,7 +296,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_28
       rect:
         serializedVersion: 2
@@ -305,7 +305,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
     - name: ff3Sprites_29
       rect:
         serializedVersion: 2
@@ -314,6 +314,6 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
