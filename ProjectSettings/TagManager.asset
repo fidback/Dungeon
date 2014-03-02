@@ -41,3 +41,15 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Back
+    userID: 1
+    uniqueID: 203858401
+    locked: 0
+  - name: Mid
+    userID: 2
+    uniqueID: 364861033
+    locked: 0
+  - name: Front
+    userID: 3
+    uniqueID: 4043890405
+    locked: 0

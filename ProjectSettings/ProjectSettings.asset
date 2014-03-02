@@ -11,13 +11,13 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: fidback
-  productName: Dungeon2
-  defaultCursor: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  productName: Dungeon
+  defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 1280
+  defaultScreenHeightWeb: 720
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
@@ -115,7 +115,10 @@ PlayerSettings:
     m_Icons:
     - m_Icon: {fileID: 2800000, guid: 7cb7e7ada7801674cb4fa396a56ca89a, type: 3}
       m_Size: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Web
+    m_StaticBatching: 0
+    m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Black Background
   m_TemplateCustomTags: {}
   wiiRegion: 1
