@@ -14,6 +14,7 @@ public class EscenaScript : MonoBehaviour {
 		try
 		{
 			Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+			GestorTextoCursorScript.cursor.HideText();
 		}
 		catch (Exception e)
 		{

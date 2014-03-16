@@ -4,6 +4,9 @@ using System.Collections;
 
 public class InteractivoScript : MonoBehaviour {
 
+	// Nombre del objeto a mostrar al pasar el raton
+	public string name;
+
 	// Textura del cursor que queremos que se muestre al pasar el raton
 	public Texture2D cursorTexture;
 
@@ -19,6 +22,7 @@ public class InteractivoScript : MonoBehaviour {
 		try
 		{
 			Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+			GestorTextoCursorScript.cursor.ShowText(name);
 		}
 		catch (Exception e)
 		{
@@ -41,6 +45,7 @@ public class InteractivoScript : MonoBehaviour {
 		try
 		{
 			Cursor.SetCursor(null, Vector2.zero, cursorMode);
+			GestorTextoCursorScript.cursor.HideText();
 		}
 		catch (Exception e)
 		{
