@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8e568a6c4611f4b841970bf5bee417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentScene: S01Base
+  parentScene: S00Base
 --- !u!114 &419942728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +482,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: cb124aa41f8bb1d48a6baffdd16680d3, type: 2}
       propertyPath: parentScene
-      value: S01Base
+      value: S00Base
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb124aa41f8bb1d48a6baffdd16680d3, type: 2}

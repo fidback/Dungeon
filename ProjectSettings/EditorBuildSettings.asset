@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Escenas/Hechas/S00Base.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S00DetalleTerminales.unity
+  - enabled: 1
     path: Assets/Escenas/Hechas/S01Base.unity
   - enabled: 1
-    path: Assets/Escenas/Hechas/S01DetalleTerminales.unity
-  - enabled: 1
     path: Assets/Escenas/Hechas/S02Base.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S03Base.unity
