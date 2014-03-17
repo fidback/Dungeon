@@ -372,116 +372,100 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &1140544328
+--- !u!1001 &1176820438
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.64257145
+      value: 5.70012093
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.63713169
+      value: -1.56109905
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: name
-      value: Pasillo oscuro
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: textToShow
-      value: Una misteriosa fuerza invisible me impide pasar.
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Name
-      value: Salida S04 NOT YET!
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
-      value: 1.58979285
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
-      value: .232164383
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
-      value: .747841239
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
-      value: -.772615433
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
-      value: -.716773748
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
-      value: -.600927353
+      value: -.816034317
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
-      value: .972289562
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -.814985752
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
-      value: .147433639
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.47932792
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
-      value: -.21478796
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: -.149274826
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
-      value: 1.68580711
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
-      value: -.907703876
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
-      value: .715931416
+      value: .734203815
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].x
-      value: -.154356033
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -.986217737
       objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
-      value: 3.86134315
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: .85834074
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: .273789525
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Name
+      value: Salida S04
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: sceneToLoad
+      value: S04Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: name
+      value: Pasillo aullador
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -1.01927423
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: .565212607
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_RootGameObject: {fileID: 1835570289}
+  m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_RootGameObject: {fileID: 1908492246}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1001 &1184601132
@@ -884,107 +868,6 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1 &1835570289
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1835570294}
-  - 212: {fileID: 1835570293}
-  - 60: {fileID: 1835570292}
-  - 114: {fileID: 1835570291}
-  - 114: {fileID: 1835570290}
-  m_Layer: 0
-  m_Name: Salida S04 NOT YET!
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1835570290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  m_GameObject: {fileID: 1835570289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed6ff9f3cc9bba4887ea846081d195b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: Una misteriosa fuerza invisible me impide pasar.
-  duration: 3
---- !u!114 &1835570291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  m_GameObject: {fileID: 1835570289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Pasillo oscuro
-  cursorTexture: {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
-  hotSpot: {x: 7, y: 0}
---- !u!60 &1835570292
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  m_GameObject: {fileID: 1835570289}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: .232164383, y: 1.58979285}
-      - {x: .972289562, y: .147433639}
-      - {x: .715931416, y: -.907703876}
-      - {x: -.600927353, y: -.716773748}
-      - {x: -.772615433, y: .747841239}
-      - {x: -.21478796, y: 1.68580711}
---- !u!212 &1835570293
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21200000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  m_GameObject: {fileID: 1835570289}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_SortingLayerID: 364861033
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1835570294
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_PrefabInternal: {fileID: 1140544328}
-  m_GameObject: {fileID: 1835570289}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.64257145, y: -1.63713169, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1001 &1865499363
 Prefab:
   m_ObjectHideFlags: 0
@@ -1097,6 +980,105 @@ Prefab:
   m_RootGameObject: {fileID: 85597676}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1908492246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1908492251}
+  - 212: {fileID: 1908492250}
+  - 60: {fileID: 1908492249}
+  - 114: {fileID: 1908492248}
+  - 114: {fileID: 1908492247}
+  m_Layer: 0
+  m_Name: Salida S04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1908492247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  m_GameObject: {fileID: 1908492246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: S04Base
+--- !u!114 &1908492248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  m_GameObject: {fileID: 1908492246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Pasillo aullador
+  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  hotSpot: {x: 0, y: 0}
+--- !u!60 &1908492249
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  m_GameObject: {fileID: 1908492246}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: -.149274826, y: 1.47932792}
+      - {x: .85834074, y: .273789525}
+      - {x: .734203815, y: -.986217737}
+      - {x: -.816034317, y: -.814985752}
+      - {x: -1.01927423, y: .565212607}
+--- !u!212 &1908492250
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  m_GameObject: {fileID: 1908492246}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortingLayerID: 364861033
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1908492251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_PrefabInternal: {fileID: 1176820438}
+  m_GameObject: {fileID: 1908492246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.70012093, y: -1.56109905, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1955658631
 GameObject:
   m_ObjectHideFlags: 0
