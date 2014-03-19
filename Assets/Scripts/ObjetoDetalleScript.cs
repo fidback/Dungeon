@@ -37,8 +37,8 @@ public class ObjetoDetalleScript : MonoBehaviour {
 
 
 	// Establecemos un Gizmo personalizado para estos objetos interactivos
-	void OnDrawGizmos() {
-		Gizmos.DrawIcon(transform.position, "ManoGizmo.png");
-	}
+	//void OnDrawGizmos() {
+	//	Gizmos.DrawIcon(transform.position, "ManoGizmo.png");
+	//}
 
 }

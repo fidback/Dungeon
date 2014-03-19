@@ -5,7 +5,7 @@ using System.Collections;
 public class InteractivoScript : MonoBehaviour {
 
 	// Nombre del objeto a mostrar al pasar el raton
-	public string name;
+	public string nameToShow;
 
 	// Textura del cursor que queremos que se muestre al pasar el raton
 	public Texture2D cursorTexture;
@@ -58,6 +58,12 @@ public class InteractivoScript : MonoBehaviour {
 		{
 			Debug.Log("<color=blue>Ya no me tocas!</color>");
 		}
+	}
+
+
+	// Establecemos un Gizmo personalizado para estos objetos interactivos
+	void OnDrawGizmos() {
+		Gizmos.DrawIcon(transform.position, cursorTexture.name);
 	}
 
 }
