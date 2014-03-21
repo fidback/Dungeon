@@ -121,7 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 
-  cursorTexture: {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  cursorTexture: []
+  framesPerSecond: 0
   hotSpot: {x: 7, y: 0}
 --- !u!60 &137835417
 PolygonCollider2D:
@@ -322,7 +323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 
-  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  cursorTexture: []
+  framesPerSecond: 0
   hotSpot: {x: 0, y: 0}
 --- !u!1001 &348007940
 Prefab:
@@ -617,7 +619,7 @@ Transform:
   m_PrefabInternal: {fileID: 1615266088}
   m_GameObject: {fileID: 939695662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.13111877, y: .714614213, z: 0}
+  m_LocalPosition: {x: -2.06331611, y: .770142674, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -658,7 +660,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 
-  cursorTexture: {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
+  cursorTexture:
+  - {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
+  - {fileID: 2800000, guid: ee7f49a73071066478ff2922119d256f, type: 3}
+  framesPerSecond: 2
   hotSpot: {x: 7, y: 0}
 --- !u!1001 &1151322254
 Prefab:
@@ -1004,13 +1009,17 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
+      propertyPath: cursorTexture.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.13111877
+      value: -2.06331611
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .714614213
+      value: .770142674
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1043,6 +1052,18 @@ Prefab:
     - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
       propertyPath: name
       value: Terminales
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
+      propertyPath: cursorTexture.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
+    - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
+      propertyPath: cursorTexture.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: ee7f49a73071066478ff2922119d256f, type: 3}
+    - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
+      propertyPath: framesPerSecond
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
@@ -1159,7 +1180,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 
-  cursorTexture: {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  cursorTexture: []
+  framesPerSecond: 0
   hotSpot: {x: 7, y: 0}
 --- !u!60 &1823944565
 PolygonCollider2D:

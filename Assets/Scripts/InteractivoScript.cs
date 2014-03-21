@@ -8,7 +8,9 @@ public class InteractivoScript : MonoBehaviour {
 	public string nameToShow;
 
 	// Textura del cursor que queremos que se muestre al pasar el raton
-	public Texture2D cursorTexture;
+	public Texture2D[] cursorTexture;
+
+	public float framesPerSecond;
 
 	// Punto de la textura que señala donde apuntamos
 	public Vector2 hotSpot = Vector2.zero;
@@ -21,7 +23,7 @@ public class InteractivoScript : MonoBehaviour {
 	{
 		try
 		{
-			Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+			Cursor.SetCursor(cursorTexture[0], hotSpot, cursorMode);
 			GestorTextoCursorScript.cursor.ShowText(name);
 		}
 		catch (Exception e)
@@ -60,10 +62,20 @@ public class InteractivoScript : MonoBehaviour {
 		}
 	}
 
+	void OnMouseOver () {
+		int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
+		index = index % cursorTexture.Length;
+		//spriteRenderer.sprite = sprites[ index ];
+		Cursor.SetCursor( cursorTexture[ index ], hotSpot, cursorMode);
+	}
+
 
 	// Establecemos un Gizmo personalizado para estos objetos interactivos
 	void OnDrawGizmos() {
-		Gizmos.DrawIcon(transform.position, cursorTexture.name);
+		if (cursorTexture.Length >= 1)
+		{
+			Gizmos.DrawIcon(transform.position, cursorTexture[0].name);
+		}
 	}
 
 }
