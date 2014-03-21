@@ -69,8 +69,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Nombre
-  cursorTexture: {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
+  nameToShow: 
+  cursorTexture:
+  - {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
+  - {fileID: 2800000, guid: ee7f49a73071066478ff2922119d256f, type: 3}
+  framesPerSecond: 2
   hotSpot: {x: 7, y: 0}
 --- !u!212 &21200000
 SpriteRenderer:
