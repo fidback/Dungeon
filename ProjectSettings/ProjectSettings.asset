@@ -12,8 +12,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: fidback
   productName: Dungeon
-  defaultCursor: {fileID: 0}
-  cursorHotspot: {x: 0, y: 0}
+  defaultCursor: {fileID: 2800000, guid: 04bd22dbda466f94d93bd22100a48671, type: 3}
+  cursorHotspot: {x: 8, y: 1}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 1280
