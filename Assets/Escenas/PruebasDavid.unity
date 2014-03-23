@@ -87,7 +87,7 @@ GameObject:
   - 114: {fileID: 207577832}
   - 114: {fileID: 207577831}
   m_Layer: 0
-  m_Name: Terminal 3
+  m_Name: Terminal 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,7 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  nameToShow: 
+  cursorTexture:
+  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 7, y: 0}
 --- !u!60 &207577833
 PolygonCollider2D:
@@ -136,7 +139,10 @@ PolygonCollider2D:
     - - {x: .615880489, y: 1.06647027}
       - {x: .859763622, y: -.76307416}
       - {x: 1.64501405, y: -1.95321953}
-      - {x: -.588375092, y: -1.50986016}
+      - {x: -.43430233, y: -1.07565522}
+      - {x: -.599892139, y: -.117741227}
+      - {x: -1.41380215, y: -.255691171}
+      - {x: -1.74305296, y: .987904787}
       - {x: -.786693573, y: 1.04456699}
 --- !u!212 &207577834
 SpriteRenderer:
@@ -168,6 +174,208 @@ Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
   m_PrefabInternal: {fileID: 2086689043}
   m_GameObject: {fileID: 207577830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.53129292, y: .801587343, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1001 &495157476
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.54499173
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .46542868
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Name
+      value: Terminal 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.06647027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: .615880489
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -.469984055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -2.48547053
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: .859763622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: -.76307416
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: textToShow
+      value: MIERDA! Me ha dado una puta descarga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: .493975401
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -2.62060618
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -.588375092
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: -1.50986016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: -.786693573
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: 1.04456699
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_RootGameObject: {fileID: 1660289705}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1 &1159977230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1159977235}
+  - 212: {fileID: 1159977234}
+  - 60: {fileID: 1159977233}
+  - 114: {fileID: 1159977232}
+  - 114: {fileID: 1159977231}
+  m_Layer: 0
+  m_Name: Terminal 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1159977231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  m_GameObject: {fileID: 1159977230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed6ff9f3cc9bba4887ea846081d195b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToShow: MIERDA! Me ha dado una puta descarga!
+  duration: 3
+--- !u!114 &1159977232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  m_GameObject: {fileID: 1159977230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  cursorTexture:
+  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  framesPerSecond: 0
+  hotSpot: {x: 7, y: 0}
+--- !u!60 &1159977233
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  m_GameObject: {fileID: 1159977230}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .615880489, y: 1.06647027}
+      - {x: .859763622, y: -.76307416}
+      - {x: 1.64501405, y: -1.95321953}
+      - {x: -.588375092, y: -1.50986016}
+      - {x: -.786693573, y: 1.04456699}
+--- !u!212 &1159977234
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  m_GameObject: {fileID: 1159977230}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortingLayerID: 364861033
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1159977235
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 2063311154}
+  m_GameObject: {fileID: 1159977230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.99315047, y: .479435295, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -303,7 +511,292 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &2086689043
+--- !u!1 &1660289705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1660289710}
+  - 212: {fileID: 1660289709}
+  - 60: {fileID: 1660289708}
+  - 114: {fileID: 1660289707}
+  - 114: {fileID: 1660289706}
+  m_Layer: 0
+  m_Name: Terminal 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1660289706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  m_GameObject: {fileID: 1660289705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed6ff9f3cc9bba4887ea846081d195b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToShow: MIERDA! Me ha dado una puta descarga!
+  duration: 3
+--- !u!114 &1660289707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  m_GameObject: {fileID: 1660289705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  cursorTexture:
+  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  framesPerSecond: 0
+  hotSpot: {x: 7, y: 0}
+--- !u!60 &1660289708
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  m_GameObject: {fileID: 1660289705}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .615880489, y: 1.06647027}
+      - {x: .859763622, y: -.76307416}
+      - {x: .493975401, y: -2.62060618}
+      - {x: -.469984055, y: -2.48547053}
+      - {x: -.588375092, y: -1.50986016}
+      - {x: -.786693573, y: 1.04456699}
+--- !u!212 &1660289709
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  m_GameObject: {fileID: 1660289705}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortingLayerID: 364861033
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1660289710
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 495157476}
+  m_GameObject: {fileID: 1660289705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.54499173, y: .46542868, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &1676884659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1676884664}
+  - 212: {fileID: 1676884663}
+  - 60: {fileID: 1676884662}
+  - 114: {fileID: 1676884661}
+  - 114: {fileID: 1676884660}
+  m_Layer: 0
+  m_Name: Terminal 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1676884660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  m_GameObject: {fileID: 1676884659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed6ff9f3cc9bba4887ea846081d195b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToShow: MIERDA! Me ha dado una puta descarga!
+  duration: 3
+--- !u!114 &1676884661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  m_GameObject: {fileID: 1676884659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  cursorTexture:
+  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  framesPerSecond: 0
+  hotSpot: {x: 7, y: 0}
+--- !u!60 &1676884662
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  m_GameObject: {fileID: 1676884659}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: .615880489, y: 1.06647027}
+      - {x: .859763622, y: -.76307416}
+      - {x: .370411873, y: -2.28937817}
+      - {x: -.588375092, y: -1.50986016}
+      - {x: -.786693573, y: 1.04456699}
+--- !u!212 &1676884663
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  m_GameObject: {fileID: 1676884659}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortingLayerID: 364861033
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1676884664
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_PrefabInternal: {fileID: 1804916026}
+  m_GameObject: {fileID: 1676884659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.39127922, y: .353375763, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1001 &1804916026
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.39127922
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .353375763
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Name
+      value: Terminal 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.06647027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: .615880489
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -.588375092
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -1.50986016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: .859763622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: -.76307416
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: textToShow
+      value: MIERDA! Me ha dado una puta descarga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: .370411873
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -2.28937817
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_RootGameObject: {fileID: 1676884659}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &2063311154
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -377,6 +870,122 @@ Prefab:
     - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
       value: -1.95321953
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+  m_RootGameObject: {fileID: 1159977230}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &2086689043
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.53129292
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .801587343
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Name
+      value: Terminal 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: 1.06647027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: .615880489
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -.43430233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: -1.07565522
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: .859763622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: -.76307416
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: textToShow
+      value: MIERDA! Me ha dado una puta descarga!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: 1.64501405
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -1.95321953
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: -.599892139
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: -.117741227
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: -1.41380215
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: -.255691171
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].x
+      value: -1.74305296
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
+      value: .987904787
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].x
+      value: -.786693573
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
+      value: 1.04456699
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
