@@ -24,7 +24,7 @@ public class InteractivoScript : MonoBehaviour {
 		try
 		{
 			Cursor.SetCursor(cursorTexture[0], hotSpot, cursorMode);
-			GestorTextoCursorScript.cursor.ShowText(name);
+			GestorTextoCursorScript.cursor.ShowText(nameToShow);
 		}
 		catch (Exception e)
 		{

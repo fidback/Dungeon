@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Alfombra
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0
@@ -223,6 +223,10 @@ Prefab:
       propertyPath: name
       value: Puerta de la celda
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: Puerta de la celda
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 160191418}
@@ -323,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Puerta de la celda
   cursorTexture:
   - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
   framesPerSecond: 0
@@ -422,6 +426,10 @@ Prefab:
     - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
       value: 1.36686873
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Esqueletos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
@@ -657,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Terminales
   cursorTexture:
   - {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
   - {fileID: 2800000, guid: ee7f49a73071066478ff2922119d256f, type: 3}
@@ -802,6 +810,10 @@ Prefab:
     - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
       value: 1.36686873
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Alfombra
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
@@ -1039,6 +1051,10 @@ Prefab:
       propertyPath: sceneToLoad
       value: S00DetalleTerminales
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
+      propertyPath: nameToShow
+      value: Terminales
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b3659cf25c27f742afaf55e0407a6a7, type: 2}
   m_RootGameObject: {fileID: 939695662}
@@ -1153,7 +1169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Esqueletos
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0

@@ -119,8 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Escultura romana
-  cursorTexture: {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  nameToShow: Escultura
+  cursorTexture:
+  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 7, y: 0}
 --- !u!60 &85597679
 PolygonCollider2D:
@@ -463,6 +465,10 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
       value: .565212607
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: Pasillo con viento
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 1908492246}
@@ -547,6 +553,10 @@ Prefab:
       propertyPath: name
       value: "Peque\xF1o pasillo oscuro"
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: "Agujero peque\xF1o"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 2001224768}
@@ -630,6 +640,10 @@ Prefab:
     - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: name
       value: Puerta de la celda
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: Hacia la celda
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
@@ -975,6 +989,10 @@ Prefab:
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
       value: 3.86134315
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Escultura
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
   m_RootGameObject: {fileID: 85597676}
@@ -1024,8 +1042,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Pasillo aullador
-  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  nameToShow: Pasillo con viento
+  cursorTexture:
+  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 0, y: 0}
 --- !u!60 &1908492249
 PolygonCollider2D:
@@ -1123,8 +1143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Puerta de la celda
-  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  nameToShow: Hacia la celda
+  cursorTexture:
+  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 0, y: 0}
 --- !u!60 &1955658634
 PolygonCollider2D:
@@ -1272,8 +1294,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Pasillo grande
-  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  nameToShow: Gruta oscura
+  cursorTexture:
+  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 0, y: 0}
 --- !u!1001 &1970511960
 Prefab:
@@ -1354,6 +1378,10 @@ Prefab:
       propertyPath: name
       value: Pasillo grande
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: Gruta oscura
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 1967325182}
@@ -1403,8 +1431,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: "Peque\xF1o pasillo oscuro"
-  cursorTexture: {fileID: 2800000, guid: 4d9cb42a393e36d4c86431fea177b724, type: 3}
+  nameToShow: "Agujero peque\xF1o"
+  cursorTexture:
+  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
+  framesPerSecond: 0
   hotSpot: {x: 0, y: 0}
 --- !u!60 &2001224771
 PolygonCollider2D:

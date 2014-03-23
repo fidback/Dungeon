@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Terminal 2
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Terminal 1
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0
@@ -564,6 +564,10 @@ Prefab:
       propertyPath: name
       value: Terminal
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Terminal 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
   m_RootGameObject: {fileID: 1005675212}
@@ -614,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Terminal 4
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0
@@ -763,6 +767,10 @@ Prefab:
       propertyPath: name
       value: Terminal
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Terminal 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
   m_RootGameObject: {fileID: 399053032}
@@ -857,7 +865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: 
+  nameToShow: Terminal 3
   cursorTexture:
   - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
   framesPerSecond: 0
@@ -1012,6 +1020,10 @@ Prefab:
     - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
       propertyPath: name
       value: Terminal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Terminal 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
@@ -1176,6 +1188,10 @@ Prefab:
     - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
       propertyPath: name
       value: Terminal
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
+      propertyPath: nameToShow
+      value: Terminal 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
