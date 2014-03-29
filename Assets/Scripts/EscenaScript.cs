@@ -1,19 +1,23 @@
 ﻿using System;
 using UnityEngine;
 
-/// <summary>
-/// Basic Menu Script.
-/// At this version, it just shows a button to exit the game
-/// </summary>
+/*******************************************
+ * Script para el control de las escenas
+ * Muestra un boton para salir del juego
+ * (No funciona en web)
+ *******************************************/
 public class EscenaScript : MonoBehaviour {
 
-
+	// Esto se hara al arrancar cada escena
 	void Start ()
 	{
 		// Reseteamos el cursor por si venimos de clicar en algo
+		// y tenemos otro cursor puesto
 		try
 		{
+			// Cambiamos el cursor
 			Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+			// Escondemos el texto del cursor
 			GestorTextoCursorScript.cursor.HideText();
 		}
 		catch (Exception e)
@@ -28,11 +32,12 @@ public class EscenaScript : MonoBehaviour {
 
 	void OnGUI()
 	{
+		// Dimensiones del boton
 		const int buttonWidth = 80;
 		const int buttonHeight = 50;
 
-		// Draw a button to exit the game
-		if ( GUI.Button( new Rect(30, Screen.height - 80, buttonWidth, buttonHeight), "Exit") )
+		// Dibujamos el boton para salir del juego (en web no funciona)
+		if ( GUI.Button( new Rect(30, Screen.height - 80, buttonWidth, buttonHeight), "Salir") )
 		{
 			Application.Quit();
 		}

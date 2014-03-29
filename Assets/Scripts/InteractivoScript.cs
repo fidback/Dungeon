@@ -2,6 +2,14 @@
 using UnityEngine;
 using System.Collections;
 
+
+/************************************************
+ * Script para los objetos interactivos que 
+ * se pueden clicar
+ * 
+ * Muestran un cursor animado y un texto bajo el cursor
+ * al pasar el raton por encima 
+ ************************************************/
 public class InteractivoScript : MonoBehaviour {
 
 	// Nombre del objeto a mostrar al pasar el raton
@@ -65,7 +73,6 @@ public class InteractivoScript : MonoBehaviour {
 	void OnMouseOver () {
 		int index = (int)(Time.timeSinceLevelLoad * framesPerSecond);
 		index = index % cursorTexture.Length;
-		//spriteRenderer.sprite = sprites[ index ];
 		Cursor.SetCursor( cursorTexture[ index ], hotSpot, cursorMode);
 	}
 
