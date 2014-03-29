@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class HeroController : MonoBehaviour
+public class ControlHeroeScript : MonoBehaviour
 {
 
 	// Velocidad de movimiento del personaje
