@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+/************************************************
+ * Script para los objetos interactivos que 
+ * muestran un texto cuando se hace clic sobre
+ * ellos
+ ************************************************/
 public class ObjetoTextoScript : MonoBehaviour {
 
 	// Texto a mostrar
@@ -13,11 +19,12 @@ public class ObjetoTextoScript : MonoBehaviour {
 	// Cuando se hace clic dentro del Collider
 	void OnMouseDown ()
 	{
-		// Mostramos el texto que se ha indicado
+		// Mostramos el texto que se ha indicado si se ha rellenado
 		if (textToShow.Length != 0)
 		{
 			if (duration > 0f)
 			{
+				// Llamamos a la corutina que muestra el texto durante los segundos indicados
 				StartCoroutine(GestorTextoScript.text.Show(textToShow, duration));
 			}
 			else if (Debug.isDebugBuild)

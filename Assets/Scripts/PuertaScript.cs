@@ -2,6 +2,11 @@
 using UnityEngine;
 using System.Collections;
 
+
+/************************************************
+ * Script para las puerta o salidas de una sala 
+ * que nos llevan a otra sala al clicar sobre ellos
+ ************************************************/
 public class PuertaScript : MonoBehaviour {
 	
 	// Escena a cargar para la vista detalle

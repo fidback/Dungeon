@@ -2,6 +2,12 @@
 using UnityEngine;
 using System.Collections;
 
+
+/************************************************
+ * Script para los objetos interactivos que 
+ * pasan a una escena de vista detalle cuando se
+ * hace clic sobre ellos
+ ************************************************/
 public class ObjetoDetalleScript : MonoBehaviour {
 	
 	// Escena a cargar para la vista detalle
@@ -34,11 +40,4 @@ public class ObjetoDetalleScript : MonoBehaviour {
 			}
 		}
 	}
-
-
-	// Establecemos un Gizmo personalizado para estos objetos interactivos
-	//void OnDrawGizmos() {
-	//	Gizmos.DrawIcon(transform.position, "ManoGizmo.png");
-	//}
-
 }
