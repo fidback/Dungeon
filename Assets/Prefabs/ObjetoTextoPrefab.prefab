@@ -73,7 +73,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: 
   cursorTexture:
-  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
+  - {fileID: 2800000, guid: 6a0573608ff0cc04a9709541dc434e44, type: 3}
   framesPerSecond: 0
   hotSpot: {x: 7, y: 0}
 --- !u!212 &21200000

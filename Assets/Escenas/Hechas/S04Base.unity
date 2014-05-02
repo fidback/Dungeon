@@ -83,11 +83,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.352262616
+      value: .992424965
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -4.42093658
+      value: .847290516
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.z
@@ -111,11 +111,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Name
-      value: Salida S01
+      value: Salida S04B
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: sceneToLoad
-      value: S01Base
+      value: S04BBase
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: name
@@ -123,39 +123,39 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
-      value: -6.15004826
+      value: -.605515003
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
-      value: -.99015379
+      value: -.400701821
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
-      value: .711839437
+      value: .417113423
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
-      value: -6.01875496
+      value: -.437380791
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
-      value: 5.77617836
+      value: .636892796
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
-      value: .771635532
+      value: .550590992
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
-      value: -.96204567
+      value: -.446275175
       objectReference: {fileID: 0}
     - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
-      value: 5.47657251
+      value: .410968781
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: nameToShow
-      value: Hacia la estatua
+      value: Hacia S04B
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
@@ -175,7 +175,7 @@ GameObject:
   - 114: {fileID: 160191423}
   - 114: {fileID: 160191420}
   m_Layer: 0
-  m_Name: Salida S01
+  m_Name: Salida S04B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: S01Base
+  sceneToLoad: S04BBase
 --- !u!60 &160191421
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -230,10 +230,10 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_Poly:
     m_Paths:
-    - - {x: 5.77617836, y: .771635532}
-      - {x: 5.47657251, y: -.96204567}
-      - {x: -6.15004826, y: -.99015379}
-      - {x: -6.01875496, y: .711839437}
+    - - {x: .636892796, y: .550590992}
+      - {x: .410968781, y: -.446275175}
+      - {x: -.605515003, y: -.400701821}
+      - {x: -.437380791, y: .417113423}
 --- !u!4 &160191422
 Transform:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ Transform:
   m_PrefabInternal: {fileID: 145404085}
   m_GameObject: {fileID: 160191418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.352262616, y: -4.42093658, z: 0}
+  m_LocalPosition: {x: .992424965, y: .847290516, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Hacia la estatua
+  nameToShow: Hacia S04B
   cursorTexture:
   - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
   framesPerSecond: 0
@@ -439,6 +439,106 @@ Prefab:
   m_RootGameObject: {fileID: 1261120464}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1187344883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1187344888}
+  - 212: {fileID: 1187344887}
+  - 60: {fileID: 1187344886}
+  - 114: {fileID: 1187344885}
+  - 114: {fileID: 1187344884}
+  m_Layer: 0
+  m_Name: Salida S01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1187344884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  m_GameObject: {fileID: 1187344883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: S01Base
+--- !u!114 &1187344885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  m_GameObject: {fileID: 1187344883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Hacia la estatua
+  cursorTexture:
+  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
+  framesPerSecond: 0
+  hotSpot: {x: 0, y: 0}
+--- !u!60 &1187344886
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  m_GameObject: {fileID: 1187344883}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Poly:
+    m_Paths:
+    - - {x: 5.77617836, y: .771635532}
+      - {x: 5.47657251, y: -.96204567}
+      - {x: -6.15004826, y: -.99015379}
+      - {x: -6.01875496, y: .711839437}
+--- !u!212 &1187344887
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: e4f41519373ea1f45b252be8c0565e76,
+    type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  m_GameObject: {fileID: 1187344883}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_SortingLayerID: 364861033
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1187344888
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_PrefabInternal: {fileID: 1624697090}
+  m_GameObject: {fileID: 1187344883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.352262616, y: -4.42093658, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1261120464
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,108 +647,6 @@ Prefab:
   m_RootGameObject: {fileID: 870013577}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &1561083670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1561083675}
-  - 212: {fileID: 1561083674}
-  - 60: {fileID: 1561083673}
-  - 114: {fileID: 1561083672}
-  - 114: {fileID: 1561083671}
-  m_Layer: 0
-  m_Name: Salida S05
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1561083671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  m_GameObject: {fileID: 1561083670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed6ff9f3cc9bba4887ea846081d195b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textToShow: Un viento extremadamente fuerte me impide avanzar.
-  duration: 3
---- !u!114 &1561083672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  m_GameObject: {fileID: 1561083670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8adb09da6581a064e892263103489a5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: "Salida del t\xFAnel"
-  cursorTexture:
-  - {fileID: 2800000, guid: 7f2efe06d9f66da44a4c6efa1f9a5c32, type: 3}
-  framesPerSecond: 0
-  hotSpot: {x: 7, y: 0}
---- !u!60 &1561083673
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  m_GameObject: {fileID: 1561083670}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: .460713208, y: 1.03507495}
-      - {x: .818363607, y: .448544025}
-      - {x: .539310634, y: -.616428971}
-      - {x: -.894487381, y: -.587580144}
-      - {x: -.473532259, y: .852529526}
---- !u!212 &1561083674
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21200000, guid: 43f940bdb8c27fa4686c66308c6bf0ae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  m_GameObject: {fileID: 1561083670}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayer: 2
-  m_SortingOrder: 0
-  m_SortingLayerID: 364861033
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!4 &1561083675
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_PrefabInternal: {fileID: 1858546383}
-  m_GameObject: {fileID: 1561083670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .972466767, y: .898778319, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &1595487372
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +727,94 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1001 &1624697090
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.352262616
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.42093658
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Name
+      value: Salida S01
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: sceneToLoad
+      value: S01Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: name
+      value: Hacia la estatua
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
+      value: -6.15004826
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
+      value: -.99015379
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
+      value: .711839437
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
+      value: -6.01875496
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
+      value: 5.77617836
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
+      value: .771635532
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
+      value: -.96204567
+      objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
+      value: 5.47657251
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: nameToShow
+      value: Hacia la estatua
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+  m_RootGameObject: {fileID: 1187344883}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1803931687
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,99 +879,3 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &1858546383
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .972466767
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: .898778319
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Name
-      value: Salida S05
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].y
-      value: -.616428971
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[2].x
-      value: .539310634
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].y
-      value: .448544025
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[1].x
-      value: .818363607
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].y
-      value: 1.03507495
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[0].x
-      value: .460713208
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
-      value: .852529526
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
-      value: -.473532259
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: name
-      value: Hacia el pasillo S05
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: textToShow
-      value: Un viento extremadamente fuerte me impide avanzar.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].y
-      value: -.587580144
-      objectReference: {fileID: 0}
-    - target: {fileID: 6000000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[3].x
-      value: -.894487381
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-      propertyPath: nameToShow
-      value: "Salida del t\xFAnel"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 43f940bdb8c27fa4686c66308c6bf0ae, type: 2}
-  m_RootGameObject: {fileID: 1561083670}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1

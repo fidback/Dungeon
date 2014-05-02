@@ -20,6 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escenas/Hechas/S04Base.unity
   - enabled: 1
+    path: Assets/Escenas/Hechas/S04BBase.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S05Base.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S06Base.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S08Base.unity
+  - enabled: 1
+    path: Assets/Escenas/Hechas/S09Base.unity
+  - enabled: 1
     path: Assets/Escenas/Tests/MoverAUnPuntoTest.unity
   - enabled: 1
     path: Assets/Escenas/Tests/ControlJuego01.unity

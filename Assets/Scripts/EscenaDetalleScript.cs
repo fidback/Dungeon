@@ -11,6 +11,9 @@ public class EscenaDetalleScript : MonoBehaviour {
 	// Escena padre a la que volver si se pulsa el boton
 	public string parentScene;
 
+	// Imagen para el boton de volver
+	public Texture2D backImage;
+
 
 	void OnGUI()
 	{
@@ -18,8 +21,10 @@ public class EscenaDetalleScript : MonoBehaviour {
 		const int buttonWidth = 80;
 		const int buttonHeight = 50;
 
+		// Preparamos el contenido del boton (una imagen y un tooltip)
+		GUIContent content = new GUIContent( backImage, "Volver");
 		// Dibujamos el boton para volver a la escena anterior
-		if ( GUI.Button( new Rect(30, 30, buttonWidth, buttonHeight), "Volver") )
+		if ( GUI.Button( new Rect(30, 30, buttonWidth, buttonHeight), content) )
 		{
 			// Si la variable contiene algo
 			if (parentScene.Length != 0)
@@ -49,6 +54,9 @@ public class EscenaDetalleScript : MonoBehaviour {
 					Debug.Log("<color=blue>No has indicado la escena a cargar!</color>");
 				}
 			}
-		}		
+		}
+
+		// Definimos donde va el tooltip
+		GUI.Label(new Rect (90, 45, 100, 40), GUI.tooltip);
 	}
 }
