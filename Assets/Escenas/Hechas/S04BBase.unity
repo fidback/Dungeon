@@ -83,11 +83,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.278581142
+      value: -.181064352
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .220997751
+      value: .413785338
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
       propertyPath: m_LocalPosition.z
@@ -157,6 +157,15 @@ Prefab:
       propertyPath: nameToShow
       value: Hacia S05
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aaacdb93c9319f74fb80255b1bb9d341,
+        type: 3}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 160191418}
@@ -203,7 +212,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_SortingLayerID: 364861033
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: aaacdb93c9319f74fb80255b1bb9d341, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &160191420
 MonoBehaviour:
@@ -217,6 +226,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 1
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S05Base
 --- !u!60 &160191421
 PolygonCollider2D:
@@ -241,7 +254,7 @@ Transform:
   m_PrefabInternal: {fileID: 145404085}
   m_GameObject: {fileID: 160191418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.278581142, y: .220997751, z: 0}
+  m_LocalPosition: {x: -.181064352, y: .413785338, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -470,6 +483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S04Base
 --- !u!114 &1187344885
 MonoBehaviour:
@@ -810,6 +827,10 @@ Prefab:
       propertyPath: nameToShow
       value: Hacia S04
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 1187344883}
@@ -854,9 +875,9 @@ GUIText:
   m_Enabled: 1
   serializedVersion: 3
   m_Text: Nada
-  m_Anchor: 0
-  m_Alignment: 0
-  m_PixelOffset: {x: 0, y: -32}
+  m_Anchor: 1
+  m_Alignment: 1
+  m_PixelOffset: {x: 16, y: -32}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 176a1b8788bdba640985dcf8318ea51d, type: 3}

@@ -287,6 +287,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S01Base
 --- !u!60 &160191421
 PolygonCollider2D:

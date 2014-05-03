@@ -36,7 +36,7 @@ public class GestorTextoScript : MonoBehaviour {
 	}
 	
 	// Funcion para mostrar el texto indicado en pantalla durante la duracion indicada
-	public IEnumerator Show (string m, float t)
+	public IEnumerator Show (string m, float t = 3)
 	{
 		// Lo mostramos tambien en consola
 		if (Debug.isDebugBuild)
