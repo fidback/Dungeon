@@ -227,6 +227,10 @@ Prefab:
       propertyPath: nameToShow
       value: Puerta de la celda
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 160191418}
@@ -287,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isLocked: 0
+  isLocked: 1
   needKey: 0
   lockedText: Cerrada
   unlockedText: Abierta

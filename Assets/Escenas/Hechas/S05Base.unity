@@ -157,6 +157,10 @@ Prefab:
       propertyPath: nameToShow
       value: Hacia S06
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 160191418}
@@ -217,6 +221,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 1
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S06Base
 --- !u!60 &160191421
 PolygonCollider2D:
@@ -293,6 +301,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S04BBase
 --- !u!114 &692171831
 MonoBehaviour:
@@ -437,6 +449,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 1
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: S08Base
 --- !u!114 &813989251
 MonoBehaviour:
@@ -830,6 +846,10 @@ Prefab:
       propertyPath: nameToShow
       value: Hacia S08
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4f41519373ea1f45b252be8c0565e76, type: 2}
   m_RootGameObject: {fileID: 813989249}
@@ -954,9 +974,9 @@ GUIText:
   m_Enabled: 1
   serializedVersion: 3
   m_Text: Nada
-  m_Anchor: 0
-  m_Alignment: 0
-  m_PixelOffset: {x: 0, y: -32}
+  m_Anchor: 1
+  m_Alignment: 1
+  m_PixelOffset: {x: 16, y: -32}
   m_LineSpacing: 1
   m_TabSize: 4
   m_Font: {fileID: 12800000, guid: 176a1b8788bdba640985dcf8318ea51d, type: 3}
