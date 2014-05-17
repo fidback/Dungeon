@@ -339,8 +339,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Puerta de la celda
   cursorTexture:
-  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
-  framesPerSecond: 0
+  - {fileID: 2800000, guid: e57468f381a2b9747864507b13e86780, type: 3}
+  - {fileID: 2800000, guid: 7672b188f0561e34b9cfa8c8dbc946d7, type: 3}
+  framesPerSecond: 2
   textureOnClick: 0
   clickTexture: {fileID: 0}
   hotSpot: {x: 0, y: 0}
@@ -679,8 +680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Terminales
   cursorTexture:
-  - {fileID: 2800000, guid: d2fcee34623e03e40a215bb63c5a6799, type: 3}
-  - {fileID: 2800000, guid: ee7f49a73071066478ff2922119d256f, type: 3}
+  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
+  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
   framesPerSecond: 2
   textureOnClick: 0
   clickTexture: {fileID: 0}

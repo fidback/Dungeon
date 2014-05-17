@@ -56,6 +56,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5017977dc8e7b344e94fcb585a439f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
+  needKey: 0
+  lockedText: Cerrada
+  unlockedText: Abierta
   sceneToLoad: 
 --- !u!114 &11400002
 MonoBehaviour:
@@ -70,8 +74,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: 
   cursorTexture:
-  - {fileID: 2800000, guid: d1e8a07f94116a542bdc00f3b1136241, type: 3}
-  framesPerSecond: 0
+  - {fileID: 2800000, guid: e57468f381a2b9747864507b13e86780, type: 3}
+  - {fileID: 2800000, guid: 7672b188f0561e34b9cfa8c8dbc946d7, type: 3}
+  framesPerSecond: 2
+  textureOnClick: 0
+  clickTexture: {fileID: 0}
   hotSpot: {x: 0, y: 0}
 --- !u!212 &21200000
 SpriteRenderer:
