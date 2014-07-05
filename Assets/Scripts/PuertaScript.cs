@@ -47,13 +47,14 @@ public class PuertaScript : MonoBehaviour {
 			}
 		} else {
 			// Si necesita llave
-			if (needKey) {
+			if (needKey && GestorInventarioScript.inventory.GetNumberOfKeys() == 0) {
 				// Mostramos el texto de que esta cerrada
 				StartCoroutine(GestorTextoScript.text.Show(lockedText));
 			} else {
 				// Si no necesita llave, la abrimos, quitamos el sprite y mostramos el texto
 				isLocked = false;
 				renderer.enabled=false;
+				GestorInventarioScript.inventory.SubtractKey();
 				StartCoroutine(GestorTextoScript.text.Show(unlockedText));
 			}
 		}

@@ -8,6 +8,8 @@ using UnityEngine;
  *******************************************/
 public class EscenaScript : MonoBehaviour {
 
+	public Texture2D keyImage;
+
 	// Esto se hara al arrancar cada escena
 	void Start ()
 	{
@@ -41,6 +43,22 @@ public class EscenaScript : MonoBehaviour {
 		{
 			Application.Quit();
 		}
+
+
+		// Indicador de llaves en nuestro poder
+
+		// Dibujamos el boton para volver a la escena anterior
+		if (!keyImage) {
+			Debug.LogError("Mete una textura para la llave en el Inspector zoquete!");
+			return;
+		} 
+		else
+		{
+			GUI.DrawTexture(new Rect(10, 10, 64, 64), keyImage, ScaleMode.ScaleToFit, true, 0);
+		}
+
+		GUI.Label(new Rect(80, 10, 64, 64), "X " + GestorInventarioScript.inventory.GetNumberOfKeys());
+
 
 	}
 
