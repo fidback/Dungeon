@@ -121,10 +121,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Terminal 2
   cursorTexture:
-  - {fileID: 2800000, guid: 7d14800cdc65bab49891b9c123f1bd36, type: 3}
-  framesPerSecond: 0
-  textureOnClick: 1
-  clickTexture: {fileID: 2800000, guid: be0f82ac33d847e46a4911165a77ded6, type: 3}
+  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
+  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
+  framesPerSecond: 2
+  textureOnClick: 0
+  clickTexture: {fileID: 0}
   hotSpot: {x: 7, y: 0}
 --- !u!60 &166576267
 PolygonCollider2D:
@@ -371,10 +372,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Terminal 1
   cursorTexture:
-  - {fileID: 2800000, guid: 7d14800cdc65bab49891b9c123f1bd36, type: 3}
-  framesPerSecond: 0
-  textureOnClick: 1
-  clickTexture: {fileID: 2800000, guid: be0f82ac33d847e46a4911165a77ded6, type: 3}
+  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
+  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
+  framesPerSecond: 2
+  textureOnClick: 0
+  clickTexture: {fileID: 0}
   hotSpot: {x: 7, y: 0}
 --- !u!60 &399053035
 PolygonCollider2D:
@@ -659,10 +661,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Terminal 4
   cursorTexture:
-  - {fileID: 2800000, guid: 7d14800cdc65bab49891b9c123f1bd36, type: 3}
-  framesPerSecond: 0
-  textureOnClick: 1
-  clickTexture: {fileID: 2800000, guid: be0f82ac33d847e46a4911165a77ded6, type: 3}
+  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
+  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
+  framesPerSecond: 2
+  textureOnClick: 0
+  clickTexture: {fileID: 0}
   hotSpot: {x: 7, y: 0}
 --- !u!60 &645866526
 PolygonCollider2D:
@@ -916,10 +919,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: Terminal 3
   cursorTexture:
-  - {fileID: 2800000, guid: 7d14800cdc65bab49891b9c123f1bd36, type: 3}
-  framesPerSecond: 0
-  textureOnClick: 1
-  clickTexture: {fileID: 2800000, guid: be0f82ac33d847e46a4911165a77ded6, type: 3}
+  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
+  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
+  framesPerSecond: 2
+  textureOnClick: 0
+  clickTexture: {fileID: 0}
   hotSpot: {x: 7, y: 0}
 --- !u!60 &1005675215
 PolygonCollider2D:

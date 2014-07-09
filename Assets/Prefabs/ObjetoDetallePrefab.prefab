@@ -30,6 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!60 &6000000
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -71,9 +72,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameToShow: 
   cursorTexture:
-  - {fileID: 2800000, guid: 35dc7f5a70632e145a29c96a3a83d3ae, type: 3}
-  - {fileID: 2800000, guid: 2b9a8ff52a58bb247ace529a04903d99, type: 3}
-  framesPerSecond: 2
+  - {fileID: 2800000, guid: f48fba256213acb4a8febe865044297d, type: 3}
+  framesPerSecond: 0
   textureOnClick: 0
   clickTexture: {fileID: 0}
   hotSpot: {x: 7, y: 0}
@@ -95,9 +95,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 2
-  m_SortingOrder: 0
   m_SortingLayerID: 364861033
+  m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
