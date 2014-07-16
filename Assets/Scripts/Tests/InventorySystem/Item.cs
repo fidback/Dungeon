@@ -19,4 +19,20 @@ public class Item
 		Consumable,
 		Quest
 	}
+
+	public Item (string name, int id, string description, int power, int speed, ItemType type)
+	{
+		itemName = name;
+		itemID = id;
+		itemDesc = description;
+		itemIcon = Resources.Load<Texture2D>("Item Icons/" + name);
+		itemPower = power;
+		itemSpeed = speed;
+		itemType = type;
+	}
+
+	public Item ()
+	{
+
+	}
 }

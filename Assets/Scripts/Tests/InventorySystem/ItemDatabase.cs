@@ -4,5 +4,11 @@ using System.Collections.Generic;
 
 public class ItemDatabase : MonoBehaviour 
 {
-		public List<Item> items = new List<Item>();
+	public List<Item> items = new List<Item>();
+
+	void Start()
+	{
+		items.Add(new Item("Bronze Sword", 0, "A bronze sword", 2, 0, Item.ItemType.Weapon));
+		items.Add(new Item("Rotten Apple", 1, "A rotten apple", 0, 0, Item.ItemType.Consumable));
+	}
 }

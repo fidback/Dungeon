@@ -327,6 +327,8 @@ MonoBehaviour:
     textToShow: Guardar/cargar (no funciona en web)
   - sceneName: MoverAUnPuntoTest
     textToShow: "Mover personaje con el rat\xF3n"
+  - sceneName: InventarioTest
+    textToShow: Prueba de sistema de inventario
 --- !u!4 &2014284897
 Transform:
   m_ObjectHideFlags: 0

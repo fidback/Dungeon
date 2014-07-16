@@ -37,3 +37,5 @@ EditorBuildSettings:
     path: Assets/Escenas/Tests/ControlJuego02.unity
   - enabled: 1
     path: Assets/Escenas/Hechas/S00DetalleEsqueleto.unity
+  - enabled: 1
+    path: Assets/Escenas/Tests/InventarioTest.unity
