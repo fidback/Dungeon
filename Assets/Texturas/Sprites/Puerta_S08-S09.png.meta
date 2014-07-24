@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: bdc96c7a3e622244bb78c02038dc75de
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Puerta_S08-S09
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +37,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8

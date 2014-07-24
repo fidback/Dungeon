@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 8f8849d1a8d963c41a022b9248f43278
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: S00DetalleEsqueleto
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -24,9 +26,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50

@@ -39,7 +39,7 @@ public class EscenaScript : MonoBehaviour {
 		const int buttonHeight = 50;
 
 		// Dibujamos el boton para salir del juego (en web no funciona)
-		if ( GUI.Button( new Rect(30, Screen.height - 80, buttonWidth, buttonHeight), "Salir") )
+		if ( GUI.Button( new Rect(Screen.width - 90, 10, buttonWidth, buttonHeight), "Salir") )
 		{
 			Application.Quit();
 		}
@@ -54,10 +54,10 @@ public class EscenaScript : MonoBehaviour {
 		} 
 		else
 		{
-			GUI.DrawTexture(new Rect(Screen.width - 120, 10, 48, 48), keyImage, ScaleMode.ScaleToFit, true, 0);
+			GUI.DrawTexture(new Rect(Screen.width - 180, 10, 48, 48), keyImage, ScaleMode.ScaleToFit, true, 0);
 		}
 
-		GUI.Label(new Rect(Screen.width - 95, 32, 64, 32), "x " + GestorInventarioScript.inventory.GetNumberOfKeys());
+		GUI.Label(new Rect(Screen.width - 144, 32, 64, 32), "x " + GestorInventarioScript.inventory.GetNumberOfKeys());
 
 
 	}

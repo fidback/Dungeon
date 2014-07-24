@@ -24,7 +24,7 @@ public class EscenaDetalleScript : MonoBehaviour {
 		// Preparamos el contenido del boton (una imagen y un tooltip)
 		GUIContent content = new GUIContent( backImage, "Volver");
 		// Dibujamos el boton para volver a la escena anterior
-		if ( GUI.Button( new Rect(30, 30, buttonWidth, buttonHeight), content) )
+		if ( GUI.Button( new Rect(10, Screen.height - 60, buttonWidth, buttonHeight), content) )
 		{
 			// Si la variable contiene algo
 			if (parentScene.Length != 0)
@@ -57,6 +57,6 @@ public class EscenaDetalleScript : MonoBehaviour {
 		}
 
 		// Definimos donde va el tooltip
-		GUI.Label(new Rect (90, 45, 100, 40), GUI.tooltip);
+		GUI.Label(new Rect (31, Screen.height - 85, 38, 30), GUI.tooltip);
 	}
 }

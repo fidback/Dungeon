@@ -11,81 +11,23 @@ Platform assembly: D:\devspace\unity\Git\Dungeon\Builds\Windows\Latest\Dungeon_D
 Loading D:\devspace\unity\Git\Dungeon\Builds\Windows\Latest\Dungeon_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\devspace\unity\Git\Dungeon\Builds\Windows\Latest\Dungeon_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\devspace\unity\Git\Dungeon\Builds\Windows\Latest\Dungeon_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.306 seconds
+- Completed reload, in  0.323 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.604463 ms
+UnloadTime: 0.592067 ms
 System memory in use before: 42.0 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 System memory in use after: 10.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 180.
-Total: 6.453685 ms (FindLiveObjects: 0.026249 ms CreateObjectMapping: 0.023332 ms MarkObjects: 0.345980 ms  DeleteObjects: 4.650503 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 177.
+Total: 6.034060 ms (FindLiveObjects: 0.026613 ms CreateObjectMapping: 0.022968 ms MarkObjects: 0.285096 ms  DeleteObjects: 4.428113 ms)
 
-0
+10
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
-Inventory:Start() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\Tests\InventorySystem\Inventory.cs:22)
+Inventory:Start() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\Tests\InventorySystem\Inventory.cs:27)
  
 (Filename: C Line: 0)
-
-<color=blue>Me tocas!</color>
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-InteractivoScript:OnMouseEnter() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\InteractivoScript.cs:57)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:17)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:193)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:138)
- 
-(Filename: D Line: 0)
-
-Has encontrado una llave
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Show>c__Iterator0:MoveNext() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\GestorTextoScript.cs:44)
-UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:62)
-ObjetoTextoScript:OnMouseDown() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\ObjetoTextoScript.cs:28)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:17)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:156)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:138)
- 
-(Filename: D Line: 0)
-
-<color=blue>Ya no me tocas!</color>
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-InteractivoScript:OnMouseExit() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\InteractivoScript.cs:81)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:17)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:188)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:138)
- 
-(Filename: D Line: 0)
-
-<color=blue>Me tocas!</color>
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-InteractivoScript:OnMouseEnter() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\InteractivoScript.cs:57)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:17)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:193)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:138)
- 
-(Filename: D Line: 0)
-
-<color=blue>Ya no me tocas!</color>
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-InteractivoScript:OnMouseExit() (at D:\devspace\unity\Git\Dungeon\Assets\Scripts\InteractivoScript.cs:81)
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:17)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:188)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32) (at C:\BuildAgent\work\d63dfc6385190b60\Runtime\Export\MouseEvents.cs:138)
- 
-(Filename: D Line: 0)
 

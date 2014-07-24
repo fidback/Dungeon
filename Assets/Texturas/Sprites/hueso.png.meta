@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: ad114c17c5f0a65498e39e67ecc4d818
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: hueso
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
